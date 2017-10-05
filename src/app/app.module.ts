@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
+import { PcParentComponent} from './parent-child/pc-parent.component';
+import { PcChildComponent } from './parent-child/pc-child.component';
 import { ChildParentComponent } from './child-parent/child-parent.component';
 import { SiblingsComponent } from './siblings/siblings.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -22,6 +24,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     ParentChildComponent,
+    PcParentComponent,
+    PcChildComponent,
     ChildParentComponent,
     SiblingsComponent,
     NavbarComponent,
